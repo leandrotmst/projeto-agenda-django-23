@@ -21,3 +21,14 @@ git add .
 git commit -m 'Mensagem'
 git remote add origin git@github.com:leandrotmst/projeto-agenda-django-23.git
 ```
+Migrando a base de dados do Django
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+Criando e modificando a senha de um super usuário Django
+
+```
+python manage.py createsuperuser
+python manage.py changepassword USERNAME (mudar senha)
+```
