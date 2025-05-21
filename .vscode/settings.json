@@ -6,7 +6,7 @@
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.fixAll.unusedImports": "explicit",
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     },
     "python.sortImports.args": ["--profile", "black"],
     "editor.defaultFormatter": "ms-python.autopep8",
@@ -21,7 +21,7 @@
   "code-runner.runInTerminal": true,
   "cSpell.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
