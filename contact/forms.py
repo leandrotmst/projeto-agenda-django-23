@@ -19,15 +19,16 @@ class ContactForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.fields['first_name'].widget.attrs.update({
-            'class': 'classe-a classe-b',
-            'placeholder': 'Aqui veio do init',
-        })
+        # self.fields['first_name'].widget.attrs.update({
+        #     'class': 'classe-a classe-b',
+        #     'placeholder': 'Aqui veio do init',
+        # })
 
     class Meta:
         model = models.Contact 
         fields = (
             'first_name', 'last_name', 'phone',
+            'email', 'description', 'category',
         )
         # widgest = {
         #     'first_name': forms.TextInput(
