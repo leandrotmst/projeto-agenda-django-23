@@ -37,30 +37,12 @@ def user_update(request):
 
     return render(
         request,
-        "contact/user-update.html",
+        "contact/user_update.html",
         {
             "site_title": "Update User - ",
             "form": form,
         },
     )
-
-    if not form.is_valid():
-        return render(
-            request,
-            'contact/register.html',
-            {
-                'form': form,
-            }
-        )
-    
-    form.save()
-    return render(
-            request,
-            'contact/register.html',
-            {
-                'form': form,
-            }
-        )
 
 def login_view(request):
     form = AuthenticationForm(request)
