@@ -70,7 +70,7 @@
   "terminal.integrated.fontFamily": "",
   "terminal.integrated.fontSize": 24,
   "window.zoomLevel": 0,
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none"
 }
